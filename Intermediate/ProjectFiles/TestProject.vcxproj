@@ -67,7 +67,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{03C66628-1A7E-3847-8F91-35A5D1539EC5}</ProjectGuid>
+    <ProjectGuid>{FEA38CD8-47AB-3279-91B5-29DEE1982E41}</ProjectGuid>
     <RootNamespace>TestProject</RootNamespace>
   </PropertyGroup>
   <Import Project="UECommon.props" />
@@ -252,7 +252,9 @@
     <None Include="..\..\TestProject.uproject"/>
     <None Include="..\..\Source\TestProject.Target.cs"/>
     <None Include="..\..\Source\TestProjectEditor.Target.cs"/>
+    <None Include="..\..\.gitignore"/>
     <None Include="..\..\.vsconfig"/>
+    <None Include="..\..\LICENSE"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>

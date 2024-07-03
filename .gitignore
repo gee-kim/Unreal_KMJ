@@ -473,8 +473,8 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-/Windows
-/Content/__ExternalActors__/Untitled
-/Content/__ExternalObjects__/Untitled
+Windows
+Content/__ExternalActors__/Untitled
+Content/__ExternalObjects__/Untitled
 
 
