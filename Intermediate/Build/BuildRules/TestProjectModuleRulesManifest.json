@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"D:\\Unreal_KMJ\\Source\\TestProject\\TestProject.Build.cs",
-		"D:\\Unreal_KMJ\\Source\\TestProject.Target.cs",
-		"D:\\Unreal_KMJ\\Source\\TestProjectEditor.Target.cs"
-	],
-	"EngineVersion": "5.4.2"
-}
