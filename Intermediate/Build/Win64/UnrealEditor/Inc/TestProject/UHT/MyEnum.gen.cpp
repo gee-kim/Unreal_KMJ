@@ -312,7 +312,7 @@ UMyEnum::~UMyEnum() {}
 // End Class UMyEnum
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_Global_MyEnum_h_Statics
+struct Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_Global_MyEnum_h_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
 		{ ETPSPlayerAnim_StaticEnum, TEXT("ETPSPlayerAnim"), &Z_Registration_Info_UEnum_ETPSPlayerAnim, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 971551330U) },
@@ -324,9 +324,9 @@ struct Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_Global_MyEnum_h_
 		{ Z_Construct_UClass_UMyEnum, UMyEnum::StaticClass, TEXT("UMyEnum"), &Z_Registration_Info_UClass_UMyEnum, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMyEnum), 1540986856U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_Global_MyEnum_h_3076104587(TEXT("/Script/TestProject"),
-	Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_Global_MyEnum_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_Global_MyEnum_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_Global_MyEnum_h_3076104587(TEXT("/Script/TestProject"),
+	Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_Global_MyEnum_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_Global_MyEnum_h_Statics::ClassInfo),
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_Global_MyEnum_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_Global_MyEnum_h_Statics::EnumInfo));
+	Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_Global_MyEnum_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_Global_MyEnum_h_Statics::EnumInfo));
 // End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

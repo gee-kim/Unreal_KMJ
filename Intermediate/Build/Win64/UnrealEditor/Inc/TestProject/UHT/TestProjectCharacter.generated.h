@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TESTPROJECT_TestProjectCharacter_generated_h
 
-#define FID_TestProject_Source_TestProject_TestProjectCharacter_h_21_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_KMJ_Source_TestProject_TestProjectCharacter_h_21_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATestProjectCharacter(); \
 	friend struct Z_Construct_UClass_ATestProjectCharacter_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(ATestProjectCharacter)
 
 
-#define FID_TestProject_Source_TestProject_TestProjectCharacter_h_21_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_KMJ_Source_TestProject_TestProjectCharacter_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ATestProjectCharacter(ATestProjectCharacter&&); \
@@ -35,12 +35,12 @@ public: \
 	NO_API virtual ~ATestProjectCharacter();
 
 
-#define FID_TestProject_Source_TestProject_TestProjectCharacter_h_18_PROLOG
-#define FID_TestProject_Source_TestProject_TestProjectCharacter_h_21_GENERATED_BODY \
+#define FID_Unreal_KMJ_Source_TestProject_TestProjectCharacter_h_18_PROLOG
+#define FID_Unreal_KMJ_Source_TestProject_TestProjectCharacter_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_TestProject_Source_TestProject_TestProjectCharacter_h_21_INCLASS_NO_PURE_DECLS \
-	FID_TestProject_Source_TestProject_TestProjectCharacter_h_21_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_KMJ_Source_TestProject_TestProjectCharacter_h_21_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_KMJ_Source_TestProject_TestProjectCharacter_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -48,7 +48,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> TESTPROJECT_API UClass* StaticClass<class ATestProjectCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_TestProject_Source_TestProject_TestProjectCharacter_h
+#define CURRENT_FILE_ID FID_Unreal_KMJ_Source_TestProject_TestProjectCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

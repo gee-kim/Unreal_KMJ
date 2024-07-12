@@ -101,14 +101,14 @@ UGlobalAnimInstance::~UGlobalAnimInstance() {}
 // End Class UGlobalAnimInstance
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_Global_Animation_GlobalAnimInstance_h_Statics
+struct Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_Global_Animation_GlobalAnimInstance_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UGlobalAnimInstance, UGlobalAnimInstance::StaticClass, TEXT("UGlobalAnimInstance"), &Z_Registration_Info_UClass_UGlobalAnimInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGlobalAnimInstance), 2556532977U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_Global_Animation_GlobalAnimInstance_h_2063375930(TEXT("/Script/TestProject"),
-	Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_Global_Animation_GlobalAnimInstance_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_Global_Animation_GlobalAnimInstance_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_Global_Animation_GlobalAnimInstance_h_2063375930(TEXT("/Script/TestProject"),
+	Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_Global_Animation_GlobalAnimInstance_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_Global_Animation_GlobalAnimInstance_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

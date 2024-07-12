@@ -81,14 +81,14 @@ ATPSPlayer::~ATPSPlayer() {}
 // End Class ATPSPlayer
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_TPS_Play_Character_TPSPlayer_h_Statics
+struct Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_TPS_Play_Character_TPSPlayer_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ATPSPlayer, ATPSPlayer::StaticClass, TEXT("ATPSPlayer"), &Z_Registration_Info_UClass_ATPSPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATPSPlayer), 1574128248U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_TPS_Play_Character_TPSPlayer_h_822333576(TEXT("/Script/TestProject"),
-	Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_TPS_Play_Character_TPSPlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_TPS_Play_Character_TPSPlayer_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_TPS_Play_Character_TPSPlayer_h_822333576(TEXT("/Script/TestProject"),
+	Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_TPS_Play_Character_TPSPlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_TPS_Play_Character_TPSPlayer_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

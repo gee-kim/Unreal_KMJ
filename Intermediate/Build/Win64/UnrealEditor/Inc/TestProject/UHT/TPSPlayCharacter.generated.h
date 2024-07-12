@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TESTPROJECT_TPSPlayCharacter_generated_h
 
-#define FID_TestProject_Source_TestProject_TPS_Play_TPSPlayCharacter_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_KMJ_Source_TestProject_TPS_Play_TPSPlayCharacter_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATPSPlayCharacter(); \
 	friend struct Z_Construct_UClass_ATPSPlayCharacter_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(ATPSPlayCharacter)
 
 
-#define FID_TestProject_Source_TestProject_TPS_Play_TPSPlayCharacter_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_KMJ_Source_TestProject_TPS_Play_TPSPlayCharacter_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATPSPlayCharacter(); \
 private: \
@@ -37,12 +37,12 @@ public: \
 	NO_API virtual ~ATPSPlayCharacter();
 
 
-#define FID_TestProject_Source_TestProject_TPS_Play_TPSPlayCharacter_h_14_PROLOG
-#define FID_TestProject_Source_TestProject_TPS_Play_TPSPlayCharacter_h_17_GENERATED_BODY \
+#define FID_Unreal_KMJ_Source_TestProject_TPS_Play_TPSPlayCharacter_h_14_PROLOG
+#define FID_Unreal_KMJ_Source_TestProject_TPS_Play_TPSPlayCharacter_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_TestProject_Source_TestProject_TPS_Play_TPSPlayCharacter_h_17_INCLASS_NO_PURE_DECLS \
-	FID_TestProject_Source_TestProject_TPS_Play_TPSPlayCharacter_h_17_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_KMJ_Source_TestProject_TPS_Play_TPSPlayCharacter_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_KMJ_Source_TestProject_TPS_Play_TPSPlayCharacter_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -50,7 +50,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> TESTPROJECT_API UClass* StaticClass<class ATPSPlayCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_TestProject_Source_TestProject_TPS_Play_TPSPlayCharacter_h
+#define CURRENT_FILE_ID FID_Unreal_KMJ_Source_TestProject_TPS_Play_TPSPlayCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TESTPROJECT_GlobalGameState_generated_h
 
-#define FID_TestProject_Source_TestProject_Global_GlobalGameState_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_KMJ_Source_TestProject_Global_GlobalGameState_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUActorGroup(); \
 	friend struct Z_Construct_UClass_UActorGroup_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(UActorGroup)
 
 
-#define FID_TestProject_Source_TestProject_Global_GlobalGameState_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_KMJ_Source_TestProject_Global_GlobalGameState_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UActorGroup(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -37,19 +37,19 @@ public: \
 	NO_API virtual ~UActorGroup();
 
 
-#define FID_TestProject_Source_TestProject_Global_GlobalGameState_h_13_PROLOG
-#define FID_TestProject_Source_TestProject_Global_GlobalGameState_h_16_GENERATED_BODY \
+#define FID_Unreal_KMJ_Source_TestProject_Global_GlobalGameState_h_13_PROLOG
+#define FID_Unreal_KMJ_Source_TestProject_Global_GlobalGameState_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_TestProject_Source_TestProject_Global_GlobalGameState_h_16_INCLASS_NO_PURE_DECLS \
-	FID_TestProject_Source_TestProject_Global_GlobalGameState_h_16_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_KMJ_Source_TestProject_Global_GlobalGameState_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_KMJ_Source_TestProject_Global_GlobalGameState_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 template<> TESTPROJECT_API UClass* StaticClass<class UActorGroup>();
 
-#define FID_TestProject_Source_TestProject_Global_GlobalGameState_h_27_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_KMJ_Source_TestProject_Global_GlobalGameState_h_27_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGlobalGameState(); \
 	friend struct Z_Construct_UClass_AGlobalGameState_Statics; \
@@ -58,7 +58,7 @@ public: \
 	DECLARE_SERIALIZER(AGlobalGameState)
 
 
-#define FID_TestProject_Source_TestProject_Global_GlobalGameState_h_27_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_KMJ_Source_TestProject_Global_GlobalGameState_h_27_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AGlobalGameState(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -72,12 +72,12 @@ public: \
 	NO_API virtual ~AGlobalGameState();
 
 
-#define FID_TestProject_Source_TestProject_Global_GlobalGameState_h_24_PROLOG
-#define FID_TestProject_Source_TestProject_Global_GlobalGameState_h_27_GENERATED_BODY \
+#define FID_Unreal_KMJ_Source_TestProject_Global_GlobalGameState_h_24_PROLOG
+#define FID_Unreal_KMJ_Source_TestProject_Global_GlobalGameState_h_27_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_TestProject_Source_TestProject_Global_GlobalGameState_h_27_INCLASS_NO_PURE_DECLS \
-	FID_TestProject_Source_TestProject_Global_GlobalGameState_h_27_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_KMJ_Source_TestProject_Global_GlobalGameState_h_27_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_KMJ_Source_TestProject_Global_GlobalGameState_h_27_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -85,7 +85,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> TESTPROJECT_API UClass* StaticClass<class AGlobalGameState>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_TestProject_Source_TestProject_Global_GlobalGameState_h
+#define CURRENT_FILE_ID FID_Unreal_KMJ_Source_TestProject_Global_GlobalGameState_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -77,14 +77,14 @@ ATestLevelPawn::~ATestLevelPawn() {}
 // End Class ATestLevelPawn
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_TestLevel_TestLevelPawn_h_Statics
+struct Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_TestLevel_TestLevelPawn_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ATestLevelPawn, ATestLevelPawn::StaticClass, TEXT("ATestLevelPawn"), &Z_Registration_Info_UClass_ATestLevelPawn, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATestLevelPawn), 1872894817U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_TestLevel_TestLevelPawn_h_611880128(TEXT("/Script/TestProject"),
-	Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_TestLevel_TestLevelPawn_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_TestLevel_TestLevelPawn_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_TestLevel_TestLevelPawn_h_611880128(TEXT("/Script/TestProject"),
+	Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_TestLevel_TestLevelPawn_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_TestLevel_TestLevelPawn_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

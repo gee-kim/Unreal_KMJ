@@ -179,15 +179,15 @@ AGlobalGameState::~AGlobalGameState() {}
 // End Class AGlobalGameState
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_Global_GlobalGameState_h_Statics
+struct Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_Global_GlobalGameState_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UActorGroup, UActorGroup::StaticClass, TEXT("UActorGroup"), &Z_Registration_Info_UClass_UActorGroup, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UActorGroup), 4053937677U) },
 		{ Z_Construct_UClass_AGlobalGameState, AGlobalGameState::StaticClass, TEXT("AGlobalGameState"), &Z_Registration_Info_UClass_AGlobalGameState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGlobalGameState), 1114219291U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_Global_GlobalGameState_h_4044031818(TEXT("/Script/TestProject"),
-	Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_Global_GlobalGameState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_Global_GlobalGameState_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_Global_GlobalGameState_h_4044031818(TEXT("/Script/TestProject"),
+	Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_Global_GlobalGameState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_KMJ_Source_TestProject_Global_GlobalGameState_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration
