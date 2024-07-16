@@ -7,5 +7,5 @@ void ATPSHUD::BeginPlay()
 {
 	//困连 积己 包府
 	
-
+	//GetGameInstance()->
 }

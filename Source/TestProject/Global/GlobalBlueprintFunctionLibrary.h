@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
+#include "Global/GlobalGameInstance.h"
+#include "GameFramework/GameState.h"
 #include "GlobalBlueprintFunctionLibrary.generated.h"
 
 /**
@@ -14,4 +16,10 @@ class TESTPROJECT_API UGlobalBlueprintFunctionLibrary : public UBlueprintFunctio
 {
 	GENERATED_BODY()
 	
+public:
+	UFUNCTION(BlueprintPure, Category = "Game", meta = (WorldContext = "WorldContextObject", UnsafeDuringActorConstruction = "true"))
+	static class ATPSHUD* GetTPSPlayHUD(const UWorld* WorldContextObject);
+
+	static UGlobalGameInstance* GetGlobalGameInstance(const UWorld* WorldContextObject);
+
 };

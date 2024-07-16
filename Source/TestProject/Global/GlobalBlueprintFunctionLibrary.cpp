@@ -3,3 +3,15 @@
 
 #include "Global/GlobalBlueprintFunctionLibrary.h"
 
+//ATPSHUD* UGlobalBlueprintFunctionLibrary::GetTPSPlayHUD(const UWorld* WorldContextObject)
+//{
+//
+//}
+
+//UGlobalGameInstance* UGlobalBlueprintFunctionLibrary::GetGlobalGameInstance(const UWorld* WorldContextObject)
+//{
+//	UGlobalGameInstance* Inst = WorldContextObject->GetGameInstanceChecked<UGlobalGameInstance>();
+//
+//
+//}
+

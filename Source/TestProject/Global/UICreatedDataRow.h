@@ -21,5 +21,11 @@ public:
 	FUICreatedDataRow() {  }
 	~FUICreatedDataRow() {	}
 
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Resources")
+	TSubclassOf<UUserWidget> objects;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Resources")
+	bool StartOn = false;
 };
 
