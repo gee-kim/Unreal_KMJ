@@ -9,26 +9,32 @@ void ATPSHUD::BeginPlay()
 	
 	//GetGameInstance()->
 }
-void UIOn(ETPSPlayUIType _Type)
+void ATPSHUD::UIOn(ETPSPlayUIType _Type)
 {
 	//UISetVisibility(_Type, ESlateVisibility _Visibility)
 }
 
-void UIOff(ETPSPlayUIType _Type)
+void ATPSHUD::UIOff(ETPSPlayUIType _Type)
 {
 
 }
 
-void UIVisibilitySwitch(ETPSPlayUIType _Type)
+void ATPSHUD::UIVisibilitySwitch(ETPSPlayUIType _Type)
 {
 
 }
 
-void UIVisibilitySwitchKey(FKey _Key);
-
-void UISetVisibility(ETPSPlayUIType _Type, ESlateVisibility _Visibility)
+void ATPSHUD::UIVisibilitySwitchKey(FKey _Key)
 {
 
 }
 
-void UISetVisibilityKey(FKey _Key, ESlateVisibility _Visibility);
+void ATPSHUD::UISetVisibility(ETPSPlayUIType _Type, ESlateVisibility _Visibility)
+{
+
+}
+
+void ATPSHUD::UISetVisibilityKey(FKey _Key, ESlateVisibility _Visibility)
+{
+
+}

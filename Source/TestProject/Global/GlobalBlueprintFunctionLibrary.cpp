@@ -2,16 +2,23 @@
 
 
 #include "Global/GlobalBlueprintFunctionLibrary.h"
+#include "TPS/UI/TPSHUD.h"
+#include "Kismet/GameplayStatics.h"
 
-//ATPSHUD* UGlobalBlueprintFunctionLibrary::GetTPSPlayHUD(const UWorld* WorldContextObject)
-//{
-//
-//}
+ATPSHUD* UGlobalBlueprintFunctionLibrary::GetTPSPlayHUD(const UWorld* WorldContextObject)
+{
+	APlayerController* Con = UGameplayStatics::GetPlayerController(WorldContextObject, 0);
 
-//UGlobalGameInstance* UGlobalBlueprintFunctionLibrary::GetGlobalGameInstance(const UWorld* WorldContextObject)
-//{
-//	UGlobalGameInstance* Inst = WorldContextObject->GetGameInstanceChecked<UGlobalGameInstance>();
-//
-//
-//}
+	ATPSHUD* Hud = Cast<ATPSHUD>(Con->GetHUD());
+
+	return Hud;
+}
+
+UGlobalGameInstance* UGlobalBlueprintFunctionLibrary::GetGlobalGameInstance(const UWorld* WorldContextObject)
+{
+	UGlobalGameInstance* Inst = WorldContextObject->GetGameInstanceChecked<UGlobalGameInstance>();
+
+
+	return Inst;
+}
 

@@ -17,9 +17,20 @@ class TESTPROJECT_API ATPSPlayCharacter : public AGlobalCharacter
 	GENERATED_BODY()
 	
 public:
+	ATPSPlayCharacter();
+	~ATPSPlayCharacter();
 
+	UFUNCTION(BlueprintCallable)
+	void TestNet();
 
+protected:
+	void BeginPlay() override;
+
+	void Tick(float _DeltaTime) override;
 
 private:
+	// 배열은 Event가 뜨지 않는다.
+	UPROPERTY(Category = "Contents", VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	TArray<UStaticMeshComponent*> ItemMeshes;
 
 };
